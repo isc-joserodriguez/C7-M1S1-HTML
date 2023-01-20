@@ -1,0 +1,59 @@
+body{
+    background-color: gray
+}
+h1 {
+    color: red;
+}
+
+.encabezado6 {
+    color: pink;
+    font-size: 100px;
+    margin-left: 96px;
+}
+
+h5 {
+    color: red;
+    text-transform: uppercase;
+    font-size: 50px
+}
+
+#parrafo {
+    color: aqua
+}
+
+.titulo1 {
+    font-size: 50px;
+}
+
+.titulo2 {
+    font-size: 40px;
+}
+
+.titulo2 {
+    font-size: 20px;
+}
+
+.parrafo {
+    font-size: 12px;
+}
+
+#contenedor>h1 {
+    color: blue;
+}
+
+#contenedor+h1 {
+    color: deeppink;
+}
+
+#contenedor~h1 {
+    color: deeppink;
+}
+
+h1:hover {
+    color: green;
+    font-size: 20px;
+}
+
+input:focus{
+    color:blue
+}

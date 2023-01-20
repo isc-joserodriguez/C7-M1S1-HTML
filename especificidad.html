@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        span {
+            font-size: 20px;
+            color: green;
+        }
+
+        div span.nueva {
+            color: red;
+        }
+
+        div#test#test span#hola.nueva {
+            color: pink;
+        }
+
+        #btn1 {
+            margin-right: 20px;
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 50px;
+            text-align: right !important;
+        }
+    </style>
+    <h1>Lorem ipsum, dolor <span style="color:green">
+            sit amet consectetur
+        </span> adipisicing elit. In nesciunt quos culpa inventore consectetur est odit
+        dignissimos! Porro, minus asperiores eum quo animi ducimus exercitationem delectus blanditiis, necessitatibus,
+        omnis similique!</h1>
+
+    <div id="test">
+        <span id="hola" class="nueva" style="color:blue;">Texto</span>
+    </div>
+
+    <span id="hola" class="nueva" style="color:blue;">Texto</span>
+    <div id="hola" class="nueva" style="color:blue;">Texto</div>
+
+    <p>
+        Hola mi nombre es Pablo y soy granjero.
+        <br />
+        Mi <i>color</i> <b>favorito</b> es el <span style="color:red; font-weight:bold;font-size: 30px;">rojo</span>.
+    </p>
+
+    <button id="btn1">Hola</button>
+    <button id="btn2">Hola</button>
+    <script>
+        console.log('hola')
+    </script>
+</body>
+
+</html>
